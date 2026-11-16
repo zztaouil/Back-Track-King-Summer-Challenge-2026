@@ -511,6 +511,8 @@ int main() {
         // ------------------------------------------------------------------
         int budget = PAINT;
         int base = margin(b, me);
+        { int a, f; scoreBoard(b, me, a, f);
+          cerr << "T" << turn << " me" << myScore << " foe" << foeScore << " inc" << a << "/" << f << endl; }
         vector<int> planCells;                           // cells we commit to this turn
 
         auto bestPlan = [&](double& rate, Plan& out_) {
