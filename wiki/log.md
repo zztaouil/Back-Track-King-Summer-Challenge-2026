@@ -14,4 +14,8 @@ Newest first.
   between regions. Boss also had fewer own tracks inked (14 vs 24) and higher ownership share of
   active paths (49% vs 40%).
 - Added per-turn stderr trace to the bot (`T<turn> me foe inc a/f`).
-- Testing experiment 1 (sticky disrupt).
+- Exp 1 sticky disrupt: null (t −0.28).
+- Verified seeds replay deterministically → paired per-seed comparison (`tools/compare.py`).
+- Diagnostics: boss out-earns us mainly turns 10–20 and 30+; we place 12 fewer tracks/game and
+  idle ~100 more turns across 20 games. See experiments.md "Diagnostics".
+- Testing exp 2 (selfish paint value, λ=0.5).
