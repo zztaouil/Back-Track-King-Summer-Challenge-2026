@@ -1,0 +1,3 @@
+[submodule "referee"]
+	path = referee
+	url = https://github.com/CGjupoulton/SummerChallenge2026
